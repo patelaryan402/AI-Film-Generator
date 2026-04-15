@@ -8,8 +8,8 @@ import com.google.gson.JsonElement;
 
 public class ClaudeService {
 
-    private static final String API_KEY = "AIzaSyAtUg6-F-SvktqrTYR02YnC1Ju7XPusMeg";
-    private static final String MODEL = "gemini-2.5-flash-lite";
+    private static final String API_KEY = System.getenv("GEMINI_API_KEY");
+    private static final String MODEL = "gemini-2.5-flash";
 
     private static final String API_URL =
         "https://generativelanguage.googleapis.com/v1beta/models/" 
