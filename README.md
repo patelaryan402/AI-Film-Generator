@@ -23,12 +23,12 @@ API keys are securely managed using environment variables.
 ## ▶️ How to Run
 
 1. Compile:
-   javac -cp ".;lib/*" -d out src*.java
+   javac -cp ".;lib/*" -d out src\*.java
 
-2. Run:
+3. Run:
    java -cp "out;lib/*" Main
 
-3. Open:
+4. Open:
    http://localhost:8080
 
 ## 📸 Screenshots
